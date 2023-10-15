@@ -16,3 +16,9 @@ function capitalize(myString = undefined) {
 }
 
 console.log(capitalize("hElLO"));
+
+function lastLetter(myInput) {
+  return myInput.toString().slice(-1);
+}
+
+console.log(lastLetter("Heat"));
